@@ -1,93 +1,34 @@
 <template>
   <div>
     <navbar/>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
-      incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
-      labore laborum magni quas, saepe ullam. Accusantium blanditiis corporis dignissimos doloremque, ducimus ea eveniet
-      fugit illum laudantium maxime modi molestiae molestias nemo neque non obcaecati, odio pariatur placeat porro
-      praesentium provident quisquam repellat reprehenderit tempora tempore. Animi assumenda blanditiis consequuntur
-      dolorum ea facilis fuga iusto neque nostrum officia pariatur, placeat praesentium quia quos reprehenderit sed
-      tempore voluptatibus. A, asperiores consectetur debitis, facere ipsa labore magni nam nesciunt non perferendis
-      quae reprehenderit veniam.</p>
-
-
   </div>
 </template>
-
 <script>
-
-
+export default {
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 5000)
+    })}}
 </script>
+
+<style>
+html {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+</style>

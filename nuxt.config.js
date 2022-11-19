@@ -1,7 +1,17 @@
 import colors from 'vuetify/es5/util/colors'
 
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
+  loadingIndicator: {
+    name: '~/custom.html'
+  },
+
+  router: {
+    middleware: "delay"
+  },
+
   head: {
     titleTemplate: '%s - realestateavm_nuxt',
     title: 'realestateavm_nuxt',
@@ -57,6 +67,7 @@ export default {
       lang: 'en'
     }
   },
+
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
