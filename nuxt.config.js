@@ -5,7 +5,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   ssr: false,
   loadingIndicator: {
-    name: '~/custom.html'
+    name: '~/preloader2.html'
   },
 
   router: {
