@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg">
-    <div class="sticky top-0">
+    <div class="sticky top-1">
     <navbar/>
     </div>
 

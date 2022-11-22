@@ -2,17 +2,17 @@
 
   <div>
         <!-- navbar -->
-        <nav class="flex justify-between bg-transparent text-white w-screen">
+        <nav class="flex justify-between bg-transparent  text-white w-screen">
           <div class="px-5 xl:px-12 py-6 flex w-full items-center">
             <!-- Nav Links -->
             <ul class="hidden md:flex px-4 mx-auto font-semibold space-x-52" >
-              <li><a class="hover:text-gray-200" href="/">Home</a></li>
-              <li><a class="hover:text-gray-200" href="/about">Category</a></li>
+              <li><a class="hover:text-gray-200" href="/">HOME</a></li>
+              <li><a class="hover:text-gray-200" href="/about">MODEL</a></li>
 
-              <img src="~/assets/img/logo.png" alt="Tailwindcss Navigation" width="50" height="50">
+              <img class="logo" src="~/assets/img/logo.png" alt="Tailwindcss Navigation" width="50" height="50">
 
-              <li><a class="hover:text-gray-200" href="/about">Collections</a></li>
-              <li><a class="hover:text-gray-200" href="/about">Contact Us</a></li>
+              <li><a class="hover:text-gray-200" href="/about">EVALUATION</a></li>
+              <li><a class="hover:text-gray-200" href="/about">ABOUT</a></li>
             </ul>
 
             <!-- Header Icons -->
@@ -90,14 +90,18 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-.dropdown-toggle::after {
-  display: none;
+
+.logo{
+  transform: translate(0,0);
+  content: '';
+  transition: 1s;
+  border-radius: 50px;
+  margin-left: 50px;
 }
-.text-decoration-none{
-  text-decoration: none!important;
+.logo:hover{
+  transform: scale(-1.01);
+  transition: 1s;
 }
-/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
-.icon-width { width: 2rem;}
 
 </style>
 
