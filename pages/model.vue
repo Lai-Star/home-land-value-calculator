@@ -1,6 +1,8 @@
 <template>
   <div>
-    <navbar/>
+    <div class="sticky top-0">
+      <navbar/>
+    </div>
 
     <h1>EVALUATION MODEL EXPLAINED</h1>
 

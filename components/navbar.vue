@@ -2,10 +2,11 @@
 
   <div>
         <!-- navbar -->
-        <nav class="flex justify-between bg-transparent  text-white w-screen">
-          <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+        <nav class="flex justify-between bg-transparent text-white w-screen -mt-8">
+
+
             <!-- Nav Links -->
-            <ul class="hidden md:flex px-4 mx-auto space-x-52 ul" >
+            <ul class="hidden md:flex px-20 space-x-52 ul w-screen bg-black" >
               <li><a class="nlink" href="/">HOME</a></li>
               <li><a class="nlink" href="/model">MODEL</a></li>
 
@@ -15,11 +16,9 @@
               <li><a class="nlink" href="/about">ABOUT</a></li>
             </ul>
 
-          </div>
 
-
-          <div class="xl:hidden flex mr-6 items-center">
-            <div class="dropdown antialiased float-right bg-transparent w-screen">
+          <div class="xl:hidden mr-9 items-center left-0 top-0">
+            <div class="dropdown left-0 top-0">
 
               <svg @click="hidden('menu-button')"
                 xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +26,8 @@
                 class="h-6 w-6 cursor-pointer md:hidden block"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
+                stroke="currentColor">
+
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -37,7 +36,7 @@
                 />
               </svg>
 
-              <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+              <div class="hidden md:flex md:items-center md:w-auto" id="menu">
                 <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
                   <li>
                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/">HOME</a>
@@ -153,6 +152,8 @@
 }
 
 /* LOGO */
+
+
 </style>
 
 

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <navbar/>
+    <div class="sticky top-0">
+      <navbar/>
+    </div>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam cupiditate deserunt est facilis,
       incidunt praesentium quasi quisquam ratione reprehenderit sit ullam vitae voluptatum. Aliquid enim eos facere
