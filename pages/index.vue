@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="bg">
-      <div class="sticky top-0">
+      <div class="sticky top-0 nav">
         <navbar/>
       </div>
-
+      <hero/>
       <br>
       <br>
       <br>
@@ -261,5 +261,8 @@ html {
   background-color: black;
   border: 1px solid black;
   background-size: 100% 40%;
+}
+.nav{
+  z-index:150;
 }
 </style>

@@ -6,7 +6,7 @@
 
 
             <!-- Nav Links -->
-            <ul class="hidden md:flex px-20 space-x-52 ul w-screen bg-black" >
+            <ul class="hidden md:flex px-20 space-x-52 ul w-screen bg-black py-4" >
               <li><a class="nlink" href="/">HOME</a></li>
               <li><a class="nlink" href="/model">MODEL</a></li>
 
