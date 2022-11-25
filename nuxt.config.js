@@ -4,13 +4,13 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   ssr: false,
-  loadingIndicator: {
+
+  /*loadingIndicator: {
     name: '~/preloader2.html'
   },
-
   router: {
     middleware: "delay"
-  },
+  },*/
 
   head: {
     titleTemplate: '%s - realestateavm_nuxt',

@@ -1,34 +1,43 @@
 <template>
   <div>
+
+    <div v-if="show" class="preloader">
+      <div class="logo-anim-wrapper">
+        <svg id="Logo_tvar" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
+             xml:space="preserve"><g>
+		<path class="reco-logo-path lt00" d="M0,0v10.8h34.3V21H0v10.8h22.3L33,53h12L34.3,31.8h0H45V0H0z"/></g></svg>
+        <svg id="Logo_vypln" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
+             xml:space="preserve"><g>
+    		<path class="lt0" d="M0,0v10.8h34.3V21H0v10.8h22.3L33,53h12L34.3,31.8h0H45V0H0z"/></g></svg>
+      </div>
+    </div>
+
+
     <!-- NAVBAR -->
-    <div class="bg">
+    <div v-if="showContent" class="bg">
       <div class="sticky top-0 nav">
         <navbar/>
       </div>
       <!-- HERO -->
       <hero/>
-      <br><br><br>
       <!-- MODEL -->
       <div id="model">
         <br><br><br><br><br><br>
-      <h1 align="center">MODEL EXPLANATION</h1>
-      <section1/>
+        <h1 align="center">MODEL EXPLANATION</h1>
+        <section1/>
       </div>
-      <br><br><br>
       <!-- EVALUATION -->
       <div id="evaluation">
-      <br><br><br><br><br><br>
-      <h1 align="center">EVALUATION</h1>
-      <section2/>
-    </div>
-    <br><br><br>
-    <!-- ABOUT -->
+        <br><br><br><br><br><br>
+        <h1 align="center">EVALUATION</h1>
+        <section2/>
+      </div>
+      <!-- ABOUT -->
       <div id="about">
         <br><br><br><br><br><br>
-        <h1 align="center">ABOUT</h1>
+        <!-- <h1 align="center">ABOUT</h1> -->
         <about/>
       </div>
-    <br><br><br>
     </div>
   </div>
 </template>
@@ -67,8 +76,117 @@ html {
 .nav {
   z-index: 150;
 }
+
+/* PRELOADER */
+
+:root {
+  --reco-logo-linka-color: #FFFFFF;
+  --reco-logo-vypln-color: #FFFFFF;
+  --anim-Logo-linka: 3.3s;
+  --anim-opacity_Logo_vypln: .9s;
+  --anim-opacity_Logo_vypln-delay: .9s;
+}
+
+.logo-anim-wrapper {
+  position: relative;
+  display: flex;
+  width: 45px;
+  height: 53px;
+}
+
+.logo-anim-wrapper svg {
+  position: absolute;
+}
+
+#Logo_tvar {
+  opacity: 1;
+}
+
+.reco-logo-path {
+  fill: transparent;
+  stroke: var(--reco-logo-linka-color);
+}
+
+#Logo_vypln {
+  opacity: 0;
+}
+
+.lt0 {
+  fill: var(--reco-logo-vypln-color);
+}
+
+
+.reco-logo-path {
+  stroke-dasharray: 0, 990;
+  stroke-dashoffset: 0;
+  animation: anim-Logo-linka var(--anim-Logo-linka) cubic-bezier(.19, .74, .86, .37) forwards;
+}
+
+@keyframes anim-Logo-linka {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    stroke-dasharray: 20, 0;
+    stroke-dashoffset: 990;
+  }
+}
+
+#Logo_vypln {
+  opacity: 0;
+  animation: anim-opacity_Logo_vypln var(--anim-opacity_Logo_vypln) cubic-bezier(.99, .06, .88, .58) forwards;
+  animation-delay: var(--anim-opacity_Logo_vypln-delay);
+}
+
+@keyframes anim-opacity_Logo_vypln {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* PRESENTATIONAL STYLES */
+
+.preloader {
+  display: flex;
+  height: 99vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.preloader::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0A0A;
+  z-index: -1;
+}
 </style>
 
 <script>
-
+export default {
+  data() {
+    return {
+      show: true,
+      showContent: false
+    }
+  },
+  mounted() {
+    this.showToggle();
+  },
+  methods: {
+    showToggle() {
+      setTimeout(() => {
+        this.show = false
+        this.showContent = true
+      }, 3000)
+    }
+  }
+}
 </script>

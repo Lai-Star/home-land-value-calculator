@@ -7,16 +7,15 @@
 
             <!-- Nav Links -->
             <ul class="hidden md:flex pl-28 space-x-52 ul w-screen bg-black py-4" >
-              <li><a class="nlink" href="/">HOME</a></li>
-              <!-- <li><a class="nlink" href="">MODEL</a></li> -->
+
+              <nuxt-link :to="{ path: '',hash:'#'}" class="nlink"> HOME </nuxt-link>
               <nuxt-link :to="{ path: '',hash:'#model'}" class="nlink"> MODEL </nuxt-link>
 
-              <a class="nlog" href="#"><img class="logo" src="~/assets/img/logo.png" alt="Tailwindcss Navigation" width="50" height="50"></a>
+              <nuxt-link :to="{ path: '',hash:'#'}"><img class="logo" src="~/assets/img/logo.png" alt="Tailwindcss Navigation" width="50" height="50"></nuxt-link>
 
               <nuxt-link :to="{ path: '',hash:'#evaluation'}" class="nlink"> EVALUATION </nuxt-link>
               <nuxt-link :to="{ path: '',hash:'#about'}" class="nlink"> ABOUT </nuxt-link>
-              <!-- <li><a class="nlink" href="/evaluation">EVALUATION</a></li> -->
-              <!--  <li><a class="nlink" href="/about">ABOUT</a></li> -->
+
              </ul>
 
 
@@ -169,6 +168,9 @@ export default {
   methods: {
     hidden(x) {
       document.querySelector('#menu').classList.toggle("hidden");
+    },
+    goto(x) {
+      this.$router.replace({name: this.$route.name, hash: x});
     }
   }
 };
