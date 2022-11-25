@@ -8,56 +8,59 @@
             <!-- Nav Links -->
             <ul class="hidden md:flex pl-28 space-x-52 ul w-screen bg-black py-4" >
               <li><a class="nlink" href="/">HOME</a></li>
-              <li><a class="nlink" href="/model">MODEL</a></li>
+              <!-- <li><a class="nlink" href="">MODEL</a></li> -->
+              <nuxt-link :to="{ path: '',hash:'#model'}" class="nlink"> MODEL </nuxt-link>
 
               <a class="nlog" href="#"><img class="logo" src="~/assets/img/logo.png" alt="Tailwindcss Navigation" width="50" height="50"></a>
 
-              <li><a class="nlink" href="/evaluation">EVALUATION</a></li>
-              <li><a class="nlink" href="/about">ABOUT</a></li>
-            </ul>
+              <nuxt-link :to="{ path: '',hash:'#evaluation'}" class="nlink"> EVALUATION </nuxt-link>
+              <nuxt-link :to="{ path: '',hash:'#about'}" class="nlink"> ABOUT </nuxt-link>
+              <!-- <li><a class="nlink" href="/evaluation">EVALUATION</a></li> -->
+              <!--  <li><a class="nlink" href="/about">ABOUT</a></li> -->
+             </ul>
 
 
-          <div class="xl:hidden mr-9 items-center left-0 top-0">
-            <div class="dropdown left-0 top-0">
+           <div class="xl:hidden mr-9 items-center left-0 top-0">
+             <div class="dropdown left-0 top-0">
 
-              <svg @click="hidden('menu-button')"
-                xmlns="http://www.w3.org/2000/svg"
-                id="menu-button"
-                class="h-6 w-6 cursor-pointer md:hidden block"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
+               <svg @click="hidden('menu-button')"
+                 xmlns="http://www.w3.org/2000/svg"
+                 id="menu-button"
+                 class="h-6 w-6 cursor-pointer md:hidden block"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor">
 
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+                 <path
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   stroke-width="2"
+                   d="M4 6h16M4 12h16M4 18h16"
+                 />
+               </svg>
 
-              <div class="hidden md:flex md:items-center md:w-auto" id="menu">
-                <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
-                  <li>
-                    <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/">HOME</a>
-                  </li>
-                  <li>
-                    <a class="md:p-4 py-2 block hover:text-sky-400 text-white"  href="/model">MODEL</a>
-                  </li>
-                  <li>
-                    <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/evaluation">EVALUATION</a>
-                  </li>
-                  <li>
-                    <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/about">ABOUT</a>
-                  </li>
-                </ul>
-              </div>
+               <div class="hidden md:flex md:items-center md:w-auto" id="menu">
+                 <ul class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0">
+                   <li>
+                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/">HOME</a>
+                   </li>
+                   <li>
+                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white"  href="/model">MODEL</a>
+                   </li>
+                   <li>
+                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/evaluation">EVALUATION</a>
+                   </li>
+                   <li>
+                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/about">ABOUT</a>
+                   </li>
+                 </ul>
+               </div>
 
-             <!-- <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-                <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-                <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
-                <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
-              </ul> -->
+              <!-- <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                 <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
+                 <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
+                 <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
+               </ul> -->
             </div>
           </div>
         </nav>
