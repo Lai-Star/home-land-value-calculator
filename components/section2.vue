@@ -1,6 +1,9 @@
 <template>
   <div>
 
+    <div id="title" class="text-center my-10">
+      <h1 class="font-bold text-3xl text-white font">EVALUATION</h1>
+    </div>
 
     <form>
       <div class="grid gap-6 mb-6 md:grid-cols-2 px-16">

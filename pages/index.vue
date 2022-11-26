@@ -22,14 +22,13 @@
       <hero/>
       <!-- MODEL -->
       <div id="model">
-        <br><br><br><br><br><br>
-        <h1 align="center">MODEL EXPLANATION</h1>
+        <!-- <h1 align="center">MODEL EXPLANATION</h1> -->
         <section1/>
       </div>
       <!-- EVALUATION -->
       <div id="evaluation">
-        <br><br><br><br><br><br>
-        <h1 align="center">EVALUATION</h1>
+        <br><br>
+       <!-- <h1 align="center">EVALUATION</h1> -->
         <section2/>
       </div>
       <!-- ABOUT -->

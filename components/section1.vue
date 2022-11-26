@@ -1,116 +1,161 @@
 <template>
   <div>
 
-    <div class="container mx-auto px-20">
-
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pt-40 lg:pb-20" style="cursor: auto;">
-
-          <div class="p-6 bg-transparent rounded-lg">
-
-            <div class="mb-5">
-
-              <svg class="hi-outline hi-template inline-block w-12 h-12 text-sky-400" stroke="currentColor"
-                   fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                      d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
-              </svg>
-
-            </div>
-
-            <h3 class="text-lg font-bold mb-2 text-sky-400">
-              1. Product
-            </h3>
-
-            <p class="text-sm leading-6 text-white-100">
-              Metus potenti velit sollicitudin porttitor magnis elit lacinia tempor varius, ut cras orci vitae
-              parturient id nisi vulputate consectetur, primis venenatis cursus tristique malesuada viverra congue
-              risus.
-            </p>
-
+    <div class="antialiased w-full h-full bg-black text-gray-400 font-inter p-10">
+      <div class="container px-4 mx-auto">
+        <div>
+          <div id="title" class="text-center my-10">
+            <h1 class="font-bold text-3xl text-white font">MODEL EVALUATION</h1>
+            <p class="text-light text-gray-500 text-xl"> By combining AI with math you can <br> easily analyze your real
+              estate </p>
           </div>
 
-          <div class="p-6 bg-transparent rounded-lg">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10 mb-32">
+            <!-- FIRST CARD -->
+            <div id="plan"
+                 class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
 
-            <div class="mb-5">
-
-              <svg class="hi-outline hi-cube inline-block w-12 h-12 text-sky-400" stroke="currentColor" fill="none"
-                   viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                      d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
-              </svg>
-
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> ANALYZE </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Analyze your complete real estate</p>
+                </div>
+              </div>
             </div>
+            <!-- SECOND CARD -->
+            <div id="plan" class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
 
-            <h3 class="text-lg font-bold mb-2 text-sky-400">
-              2. Features
-            </h3>
-
-            <p class="text-sm leading-6 text-white-100">
-              Metus potenti velit sollicitudin porttitor magnis elit lacinia tempor varius, ut cras orci vitae
-              parturient id nisi vulputate consectetur, primis venenatis cursus tristique malesuada viverra congue
-              risus.
-            </p>
-
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> EVALUATE </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Evaluate your complete real estate</p>
+                </div>
+              </div>
+            </div>
+            <!-- THIRD CARD -->
+            <div id="plan" class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> OFFER </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Offer your analyzed real estate</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="p-6 bg-transparent rounded-lg" style="cursor: auto;">
+          <!-- SECOND GRID -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10 mb-64">
+            <!-- FIRST CARD -->
+            <div id="plan"
+                 class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
 
-            <div class="mb-5" style="cursor: auto;">
-
-              <svg class="hi-outline hi-cog inline-block w-12 h-12 text-sky-400" stroke="currentColor" fill="none"
-                   viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                      d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-              </svg>
-
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> ANALYZE </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Analyze your complete real estate</p>
+                </div>
+              </div>
             </div>
+            <!-- SECOND CARD -->
+            <div id="plan" class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
 
-            <h3 class="text-lg font-bold mb-2 text-sky-400">
-              3. Card
-            </h3>
-
-            <p class="text-sm leading-6 text-white-100">
-              Metus potenti velit sollicitudin porttitor magnis elit lacinia tempor varius, ut cras orci vitae
-              parturient id nisi vulputate consectetur, primis venenatis cursus tristique malesuada viverra congue
-              risus.
-            </p>
-
-          </div>
-
-          <div class="p-6 bg-transparent rounded-lg">
-
-            <div class="mb-5">
-
-              <svg class="hi-outline hi-sparkles inline-block w-12 h-12 text-sky-400" stroke="currentColor"
-                   fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-              </svg>
-
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> EVALUATE </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Evaluate your complete real estate</p>
+                </div>
+              </div>
             </div>
-
-            <h3 class="text-lg font-bold mb-2 text-sky-400">
-              4. Design
-            </h3>
-
-            <p class="text-sm leading-6 text-white-100">
-              Metus potenti velit sollicitudin porttitor magnis elit lacinia tempor varius, ut cras orci vitae
-              parturient id nisi vulputate consectetur, primis venenatis cursus tristique malesuada viverra congue
-              risus.
-            </p>
+            <!-- THIRD CARD -->
+            <div id="plan" class="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
+              <div id="content" class="">
+                <div id="icon" class="my-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-12 w-12 mx-auto fill-stroke text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <p class="font-bold text-xl text-white pt-4 font"> OFFER </p>
+                </div>
+                <div id="contain" class="leading-4 text-lg text-white font-sans">
+                  <p> Offer your analyzed real estate</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
+    </div>
   </div>
 </template>
 
 <style>
-.hero {
-  background-image: url('../assets/img/hero.jpg');
-  background-position: 50%;
-  height: 500px;
+@font-face {
+  font-family: "Roc Grotesk";
+  src: local("Roc Grotesk"),
+  url('../assets/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf') format("truetype");
+}
+
+.font {
+  font-family: "Roc Grotesk", "Segoe UI";
 }
 </style>
