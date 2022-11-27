@@ -17,6 +17,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.19.3",
+    "daisyui": "^2.42.1",
     "flowbite": "^1.5.4",
     "jquery": "^3.6.1",
     "node": "^16.13.0",

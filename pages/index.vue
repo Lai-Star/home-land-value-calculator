@@ -35,7 +35,7 @@
       <div id="about">
         <br><br><br><br><br><br>
         <!-- <h1 align="center">ABOUT</h1> -->
-        <about/>
+        <Footer/>
       </div>
     </div>
   </div>
@@ -169,7 +169,12 @@ html {
 </style>
 
 <script>
+import Footer from '../components/footer';
+
 export default {
+  components: {
+    Footer,
+  },
   data() {
     return {
       show: true,
