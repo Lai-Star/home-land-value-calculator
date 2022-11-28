@@ -16,7 +16,7 @@
     <!-- NAVBAR -->
     <div v-if="showContent" class="bg">
       <div class="sticky top-0 nav">
-        <navbar/>
+        <navbar2/>
       </div>
       <!-- LEGAL NOTICE -->
       <!-- legal notice component HERE -->
