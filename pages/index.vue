@@ -178,11 +178,14 @@ export default {
   data() {
     return {
       show: true,
-      showContent: false
+      showContent: false,
+      URL: '',
     }
   },
   mounted() {
+    URL = window.location.href;
     this.showToggle();
+    /*this.scroll('#model');*/
   },
   methods: {
     showToggle() {
@@ -190,7 +193,7 @@ export default {
         this.show = false
         this.showContent = true
       }, 3000)
-    }
-  }
+    },
+}
 }
 </script>

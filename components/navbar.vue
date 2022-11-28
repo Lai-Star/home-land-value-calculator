@@ -171,7 +171,18 @@ export default {
     },
     goto(x) {
       this.$router.replace({name: this.$route.name, hash: x});
-    }
+    },
+    /*goto(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: "smooth"
+      });
+    },*/
   }
 };
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
