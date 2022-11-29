@@ -12,7 +12,7 @@
               <a href="javascript:document.getElementById('top').scrollIntoView(true);" class="nlink"> HOME </a>
               <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink"> MODEL </a>
 
-              <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></a>
+              <a href="javascript:document.getElementById('top').scrollIntoView(true);"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></a>
 
               <a href="javascript:document.getElementById('evaluation').scrollIntoView(true);" class="nlink"> EVALUATION </a>
               <a href="javascript:document.getElementById('about').scrollIntoView(true);" class="nlink"> ABOUT </a>
