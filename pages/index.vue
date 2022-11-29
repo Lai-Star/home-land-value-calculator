@@ -1,41 +1,43 @@
 <template>
   <div>
+    <div id="top">
 
-    <div v-if="show" class="preloader">
-      <div class="logo-anim-wrapper">
-        <svg id="Logo_tvar" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
-             xml:space="preserve"><g>
+      <div v-if="show" class="preloader">
+        <div class="logo-anim-wrapper">
+          <svg id="Logo_tvar" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
+               xml:space="preserve"><g>
 		<path class="reco-logo-path lt00" d="M0,0v10.8h34.3V21H0v10.8h22.3L33,53h12L34.3,31.8h0H45V0H0z"/></g></svg>
-        <svg id="Logo_vypln" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
-             xml:space="preserve"><g>
+          <svg id="Logo_vypln" x="0px" y="0px" viewBox="0 0 45 53" style="enable-background:new 0 0 45 53;"
+               xml:space="preserve"><g>
     		<path class="lt0" d="M0,0v10.8h34.3V21H0v10.8h22.3L33,53h12L34.3,31.8h0H45V0H0z"/></g></svg>
+        </div>
       </div>
-    </div>
 
 
-    <!-- NAVBAR -->
-    <div v-if="showContent" class="bg">
-      <div class="sticky top-0 nav">
-        <navbar/>
-      </div>
-      <!-- HERO -->
-      <hero/>
-      <!-- MODEL -->
-      <div id="model">
-        <!-- <h1 align="center">MODEL EXPLANATION</h1> -->
-        <section1/>
-      </div>
-      <!-- EVALUATION -->
-      <div id="evaluation">
-        <br><br>
-       <!-- <h1 align="center">EVALUATION</h1> -->
-        <section2/>
-      </div>
-      <!-- ABOUT -->
-      <div id="about">
-        <br><br><br><br><br><br>
-        <!-- <h1 align="center">ABOUT</h1> -->
-        <Footer/>
+      <!-- NAVBAR -->
+      <div v-if="showContent" class="bg">
+        <div class="sticky top-0 nav">
+          <navbar/>
+        </div>
+        <!-- HERO -->
+        <hero/>
+        <!-- MODEL -->
+        <div id="model">
+          <!-- <h1 align="center">MODEL EXPLANATION</h1> -->
+          <section1/>
+        </div>
+        <!-- EVALUATION -->
+        <div id="evaluation">
+          <br><br>
+          <!-- <h1 align="center">EVALUATION</h1> -->
+          <section2/>
+        </div>
+        <!-- ABOUT -->
+        <div id="about">
+          <br><br><br><br><br><br>
+          <!-- <h1 align="center">ABOUT</h1> -->
+          <Footer/>
+        </div>
       </div>
     </div>
   </div>
@@ -183,7 +185,7 @@ export default {
     }
   },
   mounted() {
-    URL = window.location.href;
+    /*URL = window.location.href;*/
     this.showToggle();
     /*this.scroll('#model');*/
   },
@@ -194,6 +196,6 @@ export default {
         this.showContent = true
       }, 3000)
     },
-}
+  }
 }
 </script>

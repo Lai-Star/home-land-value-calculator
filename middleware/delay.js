@@ -4,6 +4,6 @@ export default ({isServer }) => {
   // Return a promise to tell nuxt.js to wait for the end of it
   return new Promise((resolve) => {
     // Wait 2000ms between each route
-    setTimeout(resolve, 2000);
+    setTimeout(resolve, 0);
   })
 }

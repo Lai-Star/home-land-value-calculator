@@ -8,13 +8,14 @@
             <!-- Nav Links -->
             <ul class="hidden md:flex pl-36 space-x-52 ul w-screen bg-black py-4" >
 
-              <nuxt-link :to="{ path: '',hash:'#'}" class="nlink"> HOME </nuxt-link>
-              <nuxt-link :to="{ path: '',hash:'#model'}" class="nlink"> MODEL </nuxt-link>
+              <!-- <nuxt-link :to="{ path: '',hash:'#top'}" class="nlink"> HOME </nuxt-link> -->
+              <a href="javascript:document.getElementById('top').scrollIntoView(true);" class="nlink"> HOME </a>
+              <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink"> MODEL </a>
 
-              <nuxt-link :to="{ path: '',hash:'#'}"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></nuxt-link>
+              <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></a>
 
-              <nuxt-link :to="{ path: '',hash:'#evaluation'}" class="nlink"> EVALUATION </nuxt-link>
-              <nuxt-link :to="{ path: '',hash:'#about'}" class="nlink"> ABOUT </nuxt-link>
+              <a href="javascript:document.getElementById('evaluation').scrollIntoView(true);" class="nlink"> EVALUATION </a>
+              <a href="javascript:document.getElementById('about').scrollIntoView(true);" class="nlink"> ABOUT </a>
 
              </ul>
 
@@ -109,7 +110,7 @@
 }
 
 .ul .nlink {
-  padding: .5em .8em;
+  /*padding: .5em .8em;*/
   position: relative;
   text-decoration: none;
   font-size: 20px;
@@ -170,7 +171,9 @@ export default {
       document.querySelector('#menu').classList.toggle("hidden");
     },
     goto(x) {
-      this.$router.replace({name: this.$route.name, hash: x});
+      //this.$router.replace({name: this.$route.name, hash: x});
+      console.log("CLICKED");
+      document.getElementById(x).scrollIntoView();
     },
     /*goto(id) {
       document.getElementById(id).scrollIntoView({
