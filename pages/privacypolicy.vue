@@ -21,7 +21,7 @@
       <!-- LEGAL NOTICE -->
       <!-- legal notice component HERE -->
       <div class="bg-black">
-     <legalnotice/>
+        <privacypolicy/>
       </div>
       <!-- <br><br><br><br><br><br> -->
     </div>
