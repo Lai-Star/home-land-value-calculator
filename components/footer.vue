@@ -2,9 +2,8 @@
   <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded bg-black">
     <div class="grid grid-flow-col gap-4">
       <nuxt-link :to="{ path: 'legalnotice',hash:''}" class="link link-hover">Legal Notice</nuxt-link>
-      <nuxt-link :to="{ path: 'privacypolicy',hash:''}" class="link link-hover">Privacy Policy</nuxt-link>
       <nuxt-link :to="{ path: 'contact',hash:''}" class="link link-hover">Contact</nuxt-link>
-      <a class="link link-hover">Press kit</a>
+      <nuxt-link :to="{ path: 'privacypolicy',hash:''}" class="link link-hover">Privacy Policy</nuxt-link>
     </div>
     <div>
       <div class="grid grid-flow-col gap-4">
