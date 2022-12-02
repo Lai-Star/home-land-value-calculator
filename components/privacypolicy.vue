@@ -205,7 +205,7 @@
 
             <h2 class="pt-8 pb-4 heading">Contact Us</h2><br>
 
-            <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+            <p>If you have any questions about this Privacy Policy, You can contact us:</p><br>
 
             <ul>
               <li> By email: realestateavm@outlook.com</li><br>
