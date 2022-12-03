@@ -20,7 +20,7 @@
           <navbar/>
         </div>
         <!-- HERO -->
-        <hero/>
+        <hero2/>
         <!-- MODEL -->
         <div id="model">
           <!-- <h1 align="center">MODEL EXPLANATION</h1> -->

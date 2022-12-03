@@ -22,9 +22,9 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .hero {
-  background-image: url('../assets/img/hero.jpg');
+  background-image: url('../assets/img/hero2.jpg');
   background-position: 50%;
   height: 500px;
 }

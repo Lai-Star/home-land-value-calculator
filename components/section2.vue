@@ -59,9 +59,4 @@
 </template>
 
 <style>
-.hero {
-  background-image: url('../assets/img/hero.jpg');
-  background-position: 50%;
-  height: 500px;
-}
 </style>
