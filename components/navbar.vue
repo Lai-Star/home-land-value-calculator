@@ -6,7 +6,8 @@
 
 
             <!-- Nav Links -->
-            <ul class="hidden md:flex pl-36 space-x-52 ul w-screen bg-black py-4" >
+           <!-- <ul class="hidden md:flex pl-36 space-x-52 ul w-screen bg-black py-4" >-->
+              <ul class="hidden md:flex pl-36 space-x-52 w-screen bg-black py-4" >
 
               <!-- <nuxt-link :to="{ path: '',hash:'#top'}" class="nlink"> HOME </nuxt-link> -->
               <a href="javascript:document.getElementById('top').scrollIntoView(true);" class="nlink"> HOME </a>
@@ -91,33 +92,34 @@
   transition: 1s;
 }
 
-.ul{
-  font-family: "Roc Grotesk","Segoe UI";
+ul{
+  font-family: "Roc Grotesk","Segoe UI",serif;
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
 }
-
-.ul * {
+ul * {
   box-sizing: border-box;
   transition: all .35s ease;
 }
 
-.ul li {
+ul li {
   display: inline-block;
   margin: .5em 1em;
   padding: 0;
 }
 
-.ul .nlink {
+ul .nlink {
   /*padding: .5em .8em;*/
   position: relative;
   text-decoration: none;
   font-size: 20px;
+  margin-top: 10px;
 }
 
-.ul .nlink::before,
-.ul .nlink::after {
+/*
+ul .nlink::before,
+ul .nlink::after {
   content: '';
   height: 14px;
   width: 14px;
@@ -126,7 +128,7 @@
   opacity: 0;
 }
 
-.ul .nlink::before {
+ul .nlink::before {
   content: '';
   right: 0;
   top: 0;
@@ -135,7 +137,7 @@
   transform: translate(-100%, 50%);
 }
 
-.ul .nlink:after {
+ul .nlink:after {
   content: '';
   left: 0;
   bottom: 0;
@@ -144,15 +146,16 @@
   transform: translate(100%, -50%)
 }
 
-.ul .nlink:hover:before,
-.ul .nlink:hover:after{
+ul .nlink:hover:before,
+ul .nlink:hover:after{
   transform: translate(0,0);
   opacity: 1;
-}
+}*/
 
-.ul .nlink:hover {
+ul .nlink:hover {
   color: #02ffff;
 }
+
 
 /* LOGO */
 
@@ -172,8 +175,9 @@ export default {
     },
     goto(x) {
       //this.$router.replace({name: this.$route.name, hash: x});
-      console.log("CLICKED");
-      document.getElementById(x).scrollIntoView();
+      //console.log("CLICKED");
+      //document.getElementById(x).scrollIntoView();
+      this.$router.replace({name: this.$route.name, hash: x});
     },
     /*goto(id) {
       document.getElementById(id).scrollIntoView({

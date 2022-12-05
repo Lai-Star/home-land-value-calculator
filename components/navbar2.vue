@@ -15,7 +15,6 @@
 
         <!--  <nuxt-link :to="{ path: '/',hash:'#evaluation'}" class="nlink"> EVALUATION </nuxt-link>
          <nuxt-link :to="{ path: '/',hash:'#about'}" class="nlink"> ABOUT </nuxt-link> -->
-
       </ul>
 
 
