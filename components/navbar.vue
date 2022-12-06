@@ -2,7 +2,7 @@
 
   <div>
         <!-- navbar -->
-        <nav class="flex justify-between bg-transparent text-white w-screen -mt-8">
+        <nav class="flex justify-center justify-between bg-transparent text-white w-screen -mt-8">
 
 
             <!-- Nav Links -->
