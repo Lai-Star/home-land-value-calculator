@@ -19,6 +19,7 @@
               <img class="w-full max-w-xs mx-auto lg:max-w-lg xl:max-w-xl" src="../assets/img/hero2.png" alt="" />
             </div>
           </div>
+          <div class="icon-scroll"></div>
         </div>
       </section>
     </div>
@@ -31,5 +32,46 @@ export default {
 </script>
 
 <style>
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%
+}
+.icon-scroll {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  bottom: 10px;
+  margin-top: 35px;
+  margin-bottom: 80px;
+  border: 2px solid #fff;
+  border-radius: 25px
+}
+@media (max-width: 767px) {
+  .icon-scroll {
+    position: relative
+  }
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll
+}
+@keyframes scroll {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(26px)
+  }
+}
 
 </style>
