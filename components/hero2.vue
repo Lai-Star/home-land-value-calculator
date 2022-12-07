@@ -49,7 +49,8 @@ export default {
 }
 @media (max-width: 767px) {
   .icon-scroll {
-    position: relative
+    position: relative;
+    /* hide mouse scroll in lower max width*/
   }
 }
 .icon-scroll:before {

@@ -2,23 +2,23 @@
 
   <div>
         <!-- navbar -->
-        <nav class="flex justify-center justify-between bg-transparent text-white w-screen -mt-8">
+        <nav class="flex justify-center justify-between bg-black text-white w-screen -mt-8">
 
 
             <!-- Nav Links -->
            <!-- <ul class="hidden md:flex pl-36 space-x-52 ul w-screen bg-black py-4" >-->
-              <ul class="hidden md:flex pl-36 space-x-52 w-screen bg-black py-4" >
+              <ul class="hidden md:flex w-screen bg-black py-4 justify-center pr-6">
 
               <!-- <nuxt-link :to="{ path: '',hash:'#top'}" class="nlink"> HOME </nuxt-link> -->
-              <a href="javascript:document.getElementById('top').scrollIntoView(true);" class="nlink"> HOME </a>
-              <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink"> MODEL </a>
-
-              <a href="javascript:document.getElementById('top').scrollIntoView(true);"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></a>
-
-              <a href="javascript:document.getElementById('evaluation').scrollIntoView(true);" class="nlink"> EVALUATION </a>
-              <a href="javascript:document.getElementById('about').scrollIntoView(true);" class="nlink"> ABOUT </a>
-
+              <a href="javascript:document.getElementById('top').scrollIntoView(true);" class="nlink "> HOME </a>
+              <a href="javascript:document.getElementById('model').scrollIntoView(true);" class="nlink "> EXPLORE </a>
+              <a href="javascript:document.getElementById('top').scrollIntoView(true);"><img class="logo " src="~/assets/img/logo3.png" alt="R" width="40" height="40"></a>
+              <a href="javascript:document.getElementById('evaluation').scrollIntoView(true);" class="nlink "> EVALUATE </a>
+              <a href="javascript:document.getElementById('about').scrollIntoView(true);" class="nlink "> ABOUT </a>
              </ul>
+
+
+
 
 
            <div class="xl:hidden mr-9 items-center left-0 top-0">
@@ -49,7 +49,7 @@
                      <a class="md:p-4 py-2 block hover:text-sky-400 text-white"  href="/model">MODEL</a>
                    </li>
                    <li>
-                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/evaluation">EVALUATION</a>
+                     <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/evaluation">EVALUATE</a>
                    </li>
                    <li>
                      <a class="md:p-4 py-2 block hover:text-sky-400 text-white" href="/about">ABOUT</a>
@@ -84,8 +84,8 @@
   transform: translate(0,0);
   content: '';
   transition: 1s;
-  border-radius: 50px;
-  margin-left: 50px;
+  margin-right:55px;
+  margin-left:55px;
 }
 .logo:hover{
   transform: scale(-1.01);
@@ -96,27 +96,23 @@ ul{
   font-family: "Roc Grotesk","Segoe UI",serif;
   font-size: 16px;
   text-transform: uppercase;
-  text-align: center;
+  text-align:center;
 }
 ul * {
   box-sizing: border-box;
   transition: all .35s ease;
 }
 
-ul li {
-  display: inline-block;
-  margin: .5em 1em;
-  padding: 0;
-}
 
 ul .nlink {
   /*padding: .5em .8em;*/
   position: relative;
   text-decoration: none;
   font-size: 20px;
-  margin-top: 10px;
-}
 
+  flex-basis:20%;
+  margin:0 0 0 0;
+}
 /*
 ul .nlink::before,
 ul .nlink::after {

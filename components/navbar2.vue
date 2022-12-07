@@ -5,16 +5,8 @@
     <nav class="flex justify-between bg-transparent text-white w-screen -mt-8">
 
 
-      <!-- Nav Links -->
-      <ul class="hidden md:flex pr-16 w-screen bg-black py-4  items-center justify-center" >
-
-        <!-- <NuxtLink to="/" class="nlink">HOME</NuxtLink>
-        <nuxt-link :to="{ path: '/',hash:'#model'}" class="nlink"> MODEL </nuxt-link> -->
-
-        <nuxt-link :to="{ path: '/',hash:''}"><img class="logo" src="~/assets/img/logo.png" alt="R" width="50" height="50"></nuxt-link>
-
-        <!--  <nuxt-link :to="{ path: '/',hash:'#evaluation'}" class="nlink"> EVALUATION </nuxt-link>
-         <nuxt-link :to="{ path: '/',hash:'#about'}" class="nlink"> ABOUT </nuxt-link> -->
+      <ul class="hidden md:flex w-screen bg-black py-4 justify-center pr-6" >
+        <nuxt-link :to="{ path: '/',hash:''}"><img class="logo" src="~/assets/img/logo3.png" alt="R" width="40" height="40"></nuxt-link>
       </ul>
 
 
@@ -81,41 +73,40 @@
   transform: translate(0,0);
   content: '';
   transition: 1s;
-  border-radius: 50px;
-  margin-left: 50px;
+  margin-right: 55px;
+  margin-left: 55px;
 }
 .logo:hover{
   transform: scale(-1.01);
   transition: 1s;
 }
 
-.ul{
-  font-family: "Roc Grotesk","Segoe UI";
+ul{
+  font-family: "Roc Grotesk","Segoe UI",serif;
   font-size: 16px;
   text-transform: uppercase;
-  text-align: center;
+  width:100%;
+  text-align:center;
+  display:flex;
 }
-
-.ul * {
+ul * {
   box-sizing: border-box;
   transition: all .35s ease;
 }
 
-.ul li {
-  display: inline-block;
-  margin: .5em 1em;
-  padding: 0;
-}
 
-.ul .nlink {
-  padding: .5em .8em;
+ul .nlink {
+  /*padding: .5em .8em;*/
   position: relative;
   text-decoration: none;
   font-size: 20px;
-}
 
-.ul .nlink::before,
-.ul .nlink::after {
+  flex-basis:20%;
+  margin:0 0px;
+}
+/*
+ul .nlink::before,
+ul .nlink::after {
   content: '';
   height: 14px;
   width: 14px;
@@ -124,7 +115,7 @@
   opacity: 0;
 }
 
-.ul .nlink::before {
+ul .nlink::before {
   content: '';
   right: 0;
   top: 0;
@@ -133,7 +124,7 @@
   transform: translate(-100%, 50%);
 }
 
-.ul .nlink:after {
+ul .nlink:after {
   content: '';
   left: 0;
   bottom: 0;
@@ -142,15 +133,16 @@
   transform: translate(100%, -50%)
 }
 
-.ul .nlink:hover:before,
-.ul .nlink:hover:after{
+ul .nlink:hover:before,
+ul .nlink:hover:after{
   transform: translate(0,0);
   opacity: 1;
-}
+}*/
 
-.ul .nlink:hover {
+ul .nlink:hover {
   color: #02ffff;
 }
+
 
 /* LOGO */
 
