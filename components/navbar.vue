@@ -188,4 +188,11 @@ export default {
 html {
   scroll-behavior: smooth;
 }
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+  0 0 25px #03e9f4,
+  0 0 50px #03e9f4,
+  0 0 100px #03e9f4;
+}
 </style>
